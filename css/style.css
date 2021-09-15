@@ -599,7 +599,11 @@ header .icons #menu-bars{
 }
 
 .swiper-container{
+<<<<<<< Updated upstream
     overflow: hidden
+=======
+    overflow: hidden;
+>>>>>>> Stashed changes
 }
 
 
