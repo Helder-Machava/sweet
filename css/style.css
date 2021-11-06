@@ -232,40 +232,6 @@ header .icons #menu-bars{
     text-align: center;
 }
 
-.dishes .box-container .box .fa-heart,
-.dishes .box-container .box .fa-eye{
-    position: absolute;
-    top:1.5rem;
-    background:#eee;
-    border-radius: 50%;
-    height: 5rem;
-    width:5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    color:var(--black);
-}
-
-.dishes .box-container .box .fa-heart:hover,
-.dishes .box-container .box .fa-eye:hover{
-    background: var(--green);
-    color:#fff;
-}
-
-.dishes .box-container .box .fa-heart{
-    right:-15rem;
-}
-
-.dishes .box-container .box .fa-eye{
-    left:-15rem;
-}
-
-.dishes .box-container .box:hover .fa-heart{
-    right:1.5rem;
-}
-
-.dishes .box-container .box:hover .fa-eye{
-    left:1.5rem;
-}
 
 .dishes .box-container .box img{
     height:17rem;
@@ -383,23 +349,6 @@ header .icons #menu-bars{
     object-fit: cover;
 }
 
-.menu .box-container .box .image .fa-heart{
-    position: absolute;
-    top:2.5rem; right: 2.5rem;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    background: #fff;
-    border-radius: 50%;
-    color:var(--black);
-}
-
-.menu .box-container .box .image .fa-heart:hover{
-    background-color: var(--green);
-    color:#fff;
-}
 
 .menu .box-container .box .content{
     padding:2rem;
@@ -554,6 +503,11 @@ header .icons #menu-bars{
 .footer .box-container .box a:hover{
     color:var(--green);
     text-decoration: underline;
+}
+
+.footer .box-container .box span a i{
+    padding:.5rem .5rem;
+    font-size: 3rem;
 }
 
 .footer .credit{
